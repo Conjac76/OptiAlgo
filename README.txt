@@ -6,6 +6,9 @@ This Python script demonstrates the implementation of two optimization algorithm
 gradient descent and simulated annealing. The goal of both algorithms is to find 
 the minimum point of a given function. 
 
+If you have a bad guess, the naive gradient descent algorithm may converge to a local minimum. This is because the algorithm always moves in the direction of the negative gradient, and if the initial guess is close to a local minimum, then the algorithm will move towards that local minimum.
+
+
 
 ### 1. Gradient Descent
 
