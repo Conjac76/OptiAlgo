@@ -74,10 +74,10 @@ Feel free to modify the parameters and the objective function to experiment with
 ## Additional Considerations
 
 - The objective function `f(x, y)` and its gradient are hardcoded in the script. If you want to optimize a different 
-- function, you need to modify the `f(x, y)` function and its corresponding gradient function.
+  function, you need to modify the `f(x, y)` function and its corresponding gradient function.
 
 - The convergence of the algorithms depends on the chosen parameters and the nature of the objective function. 
-- Adjusting the parameters, such as step size `epsilon`, cooling rate `alpha`, and initial temperature `t0`, 
-- may be required to achieve satisfactory results.
+  Adjusting the parameters, such as step size `epsilon`, cooling rate `alpha`, and initial temperature `t0`, 
+  may be required to achieve satisfactory results.
 
 - The script uses the `math` and `random` 
